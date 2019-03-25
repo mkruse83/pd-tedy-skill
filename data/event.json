@@ -1,0 +1,253 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.69cc8d1a-3225-4242-bc19-72b901e416fd",
+		"application": {
+			"applicationId": "amzn1.ask.skill.2dc1442b-2a31-4230-8ca8-2d4c2911fdaf"
+		},
+		"attributes": {
+			"cocktailIndex": 2,
+			"cocktails": {
+				"0": {
+					"type": "Cocktail",
+					"id": 22,
+					"name": "Nice Head",
+					"count": 2,
+					"imgPath": "/assets/img/cocktail_3.jpg",
+					"ingredientDescriptors": [
+						{
+							"id": 22,
+							"ingredient": {
+								"type": "Ingredient",
+								"id": 2,
+								"name": "Grapefruitsaft"
+							},
+							"amountInML": 330
+						}
+					],
+					"flavors": [
+						{
+							"id": 51,
+							"flavor": {
+								"type": "Flavor",
+								"id": 30,
+								"name": "sour"
+							}
+						},
+						{
+							"id": 50,
+							"flavor": {
+								"type": "Flavor",
+								"id": 32,
+								"name": "sweet"
+							}
+						}
+					],
+					"resolvedFlavors": null,
+					"alcoholic": false,
+					"making": true
+				},
+				"1": {
+					"type": "Cocktail",
+					"id": 78,
+					"name": "Toxic Markus",
+					"count": 0,
+					"imgPath": "/assets/img/cocktail_3.jpg",
+					"ingredientDescriptors": [
+						{
+							"id": 84,
+							"ingredient": {
+								"type": "Ingredient",
+								"id": 3,
+								"name": "Maracujasaft"
+							},
+							"amountInML": 280
+						},
+						{
+							"id": 85,
+							"ingredient": {
+								"type": "Ingredient",
+								"id": 4,
+								"name": "Bananensaft"
+							},
+							"amountInML": 50
+						}
+					],
+					"flavors": [
+						{
+							"id": 171,
+							"flavor": {
+								"type": "Flavor",
+								"id": 32,
+								"name": "sweet"
+							}
+						}
+					],
+					"resolvedFlavors": null,
+					"alcoholic": false,
+					"making": false
+				},
+				"2": {
+					"type": "Cocktail",
+					"id": 24,
+					"name": "Called Day",
+					"count": 0,
+					"imgPath": "/assets/img/cocktail_2.jpg",
+					"ingredientDescriptors": [
+						{
+							"id": 0,
+							"ingredient": {
+								"type": "Ingredient",
+								"id": 3,
+								"name": "Maracujasaft"
+							},
+							"amountInML": 220
+						},
+						{
+							"id": 2,
+							"ingredient": {
+								"type": "Ingredient",
+								"id": 1,
+								"name": "Orangensaft"
+							},
+							"amountInML": 110
+						}
+					],
+					"flavors": [
+						{
+							"id": 66,
+							"flavor": {
+								"type": "Flavor",
+								"id": 32,
+								"name": "sweet"
+							}
+						}
+					],
+					"resolvedFlavors": null,
+					"alcoholic": false,
+					"making": false
+				},
+				"3": {
+					"type": "Cocktail",
+					"id": 19,
+					"name": "Best Tone",
+					"count": 0,
+					"imgPath": "/assets/img/cocktail_0.jpg",
+					"ingredientDescriptors": [
+						{
+							"id": 20,
+							"ingredient": {
+								"type": "Ingredient",
+								"id": 4,
+								"name": "Bananensaft"
+							},
+							"amountInML": 200
+						},
+						{
+							"id": 19,
+							"ingredient": {
+								"type": "Ingredient",
+								"id": 6,
+								"name": "Kirschsaft"
+							},
+							"amountInML": 130
+						}
+					],
+					"flavors": [
+						{
+							"id": 46,
+							"flavor": {
+								"type": "Flavor",
+								"id": 30,
+								"name": "sour"
+							}
+						},
+						{
+							"id": 47,
+							"flavor": {
+								"type": "Flavor",
+								"id": 32,
+								"name": "sweet"
+							}
+						}
+					],
+					"resolvedFlavors": null,
+					"alcoholic": false,
+					"making": false
+				}
+			}
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AE3POOZXEQYTP6BTJXKQPTXQN6RLWAKCZ5ZE3P23LUFNIZCMYFJLYAUPXCYDSOECC4XCTDVHV3E3CVRC2SV5DIXYDARALEDKMFKLVXLGUG7FAFYRGWUCIQCIQZPPPGBFXP7ALFOIKXUJB4BMYQW2377VMQQVK4W6COLKLZOPFITOLCYPY4W6BEVQX3JC7XBKMSWS3BOLCYIWINQ"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.2dc1442b-2a31-4230-8ca8-2d4c2911fdaf"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AE3POOZXEQYTP6BTJXKQPTXQN6RLWAKCZ5ZE3P23LUFNIZCMYFJLYAUPXCYDSOECC4XCTDVHV3E3CVRC2SV5DIXYDARALEDKMFKLVXLGUG7FAFYRGWUCIQCIQZPPPGBFXP7ALFOIKXUJB4BMYQW2377VMQQVK4W6COLKLZOPFITOLCYPY4W6BEVQX3JC7XBKMSWS3BOLCYIWINQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AEGJDPQDOHLGKHGVGUGLGMXOVQZDII7IOVXAS2YBXYKNHZ3HPQTQIYGAT3K36GTEXDRUOSR26Q2HHPRAA5FS7DN27EC7DYCFN6M2AY7R2AZATZ5P7ULNNYKJUTAMN7AGCSRS7JZ5HZEIPM2OTRRJWBWETRNA",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.eu.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjJkYzE0NDJiLTJhMzEtNDIzMC04Y2E4LTJkNGMyOTExZmRhZiIsImV4cCI6MTU1MTQwNjU4MCwiaWF0IjoxNTUxNDA2MjgwLCJuYmYiOjE1NTE0MDYyODAsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUVHSkRQUURPSExHS0hHVkdVR0xHTVhPVlFaRElJN0lPVlhBUzJZQlhZS05IWjNIUFFUUUlZR0FUM0szNkdURVhEUlVPU1IyNlEySEhQUkFBNUZTN0ROMjdFQzdEWUNGTjZNMkFZN1IyQVpBVFo1UDdVTE5OWUtKVVRBTU43QUdDU1JTN0paNUhaRUlQTTJPVFJSSldCV0VUUk5BIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUUzUE9PWlhFUVlUUDZCVEpYS1FQVFhRTjZSTFdBS0NaNVpFM1AyM0xVRk5JWkNNWUZKTFlBVVBYQ1lEU09FQ0M0WENURFZIVjNFM0NWUkMyU1Y1RElYWURBUkFMRURLTUZLTFZYTEdVRzdGQUZZUkdXVUNJUUNJUVpQUFBHQkZYUDdBTEZPSUtYVUpCNEJNWVFXMjM3N1ZNUVFWSzRXNkNPTEtMWk9QRklUT0xDWVBZNFc2QkVWUVgzSkM3WEJLTVNXUzNCT0xDWUlXSU5RIn19.VcaCr-l9kevYtJxlBP4c7ZjWJfgQSeGjm904B6cBl7lugqab9pc5HPjtcRFrMKEXPY6f6yWb4k11xr7x8y_LFPBh7AQ7i3RL_D6efTCOuyfaAirBWF2bsa4TXOr2VWUmHZthgnpjICLMh9LF_-r6O4EDXAGJkQEfQC_j6OqcjpeaY5wQAgw29d8byqaws9YoLY9qR7PmnGE288RaDYF5tKNHx3MqqmPBga9K6OTG4PskT0VLR6QzNDqwhGWTbKkrRoD6L-lK-Zxp2FZPymDSXtd8P8yM_-OF4lIN7mmbnjm4c02f0DJw7VW-CCpnJYa8Fl_O8ZQGLzZ1ELvMpqXj_w"
+		},
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 246,
+					"arcMinuteHeight": 144,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"shape": "RECTANGLE",
+			"pixelWidth": 1024,
+			"pixelHeight": 600,
+			"dpi": 160,
+			"currentPixelWidth": 1024,
+			"currentPixelHeight": 600,
+			"touch": [
+				"SINGLE"
+			]
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.6933d85a-51da-4955-8c75-7df2a35a389e",
+		"timestamp": "2019-03-01T02:11:20Z",
+		"locale": "de-DE",
+		"intent": {
+			"name": "MAKE_COCKTAIL_FLAVOR",
+			"confirmationStatus": "DENIED",
+			"slots": {
+				"flavor": {
+					"name": "flavor",
+					"value": "toxic",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.2dc1442b-2a31-4230-8ca8-2d4c2911fdaf.Flavor",
+								"status": {
+									"code": "ER_SUCCESS_NO_MATCH"
+								}
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"flavor_two": {
+					"name": "flavor_two",
+					"confirmationStatus": "NONE"
+				}
+			}
+		},
+		"dialogState": "IN_PROGRESS"
+	}
+}

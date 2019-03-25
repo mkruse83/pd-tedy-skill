@@ -1,0 +1,550 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "cocktail maker",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MAKE_COCKTAIL_FLAVOR",
+                    "slots": [
+                        {
+                            "name": "flavor",
+                            "type": "Flavor",
+                            "samples": [
+                                "der cocktail soll {flavor} sein",
+                                "{flavor}"
+                            ]
+                        },
+                        {
+                            "name": "flavor_two",
+                            "type": "Flavor"
+                        }
+                    ],
+                    "samples": [
+                        "ich will was {flavor} und {flavor_two}",
+                        "ich will was {flavor}",
+                        "zeig mir einen {flavor} und {flavor_two} cocktail",
+                        "zeig mir einen {flavor} cocktail",
+                        "mix mir was {flavor} und {flavor_two}",
+                        "mix mir was {flavor}",
+                        "mixe mir einen {flavor} und {flavor_two} cocktail",
+                        "mixe mir einen {flavor} cocktail",
+                        "ich möchte einen cocktail.",
+                        "dass ich einen {flavor} und {flavor_two} cocktail haben will",
+                        "dass ich einen {flavor} cocktail haben will",
+                        "er soll mir einen {flavor} und {flavor_two} zubereiten",
+                        "er soll mir einen {flavor} zubereiten",
+                        "bereite {flavor} und {flavor_two} zu",
+                        "bereite {flavor} zu",
+                        "bereite mir bitte einen {flavor} und {flavor_two} cocktail zu",
+                        "bereite mir bitte einen {flavor} cocktail zu",
+                        "ich möchte einen {flavor} und {flavor_two} cocktail haben",
+                        "ich möchte einen {flavor} cocktail haben",
+                        "nach {flavor} und {flavor_two}",
+                        "nach {flavor}",
+                        "nach einen {flavor} und {flavor_two} cocktail",
+                        "nach einen {flavor} cocktail",
+                        "nach einem {flavor} und {flavor_two} cocktail",
+                        "nach einem {flavor} cocktail",
+                        "dass ich einen {flavor} cocktail haben möchte",
+                        "{flavor} und {flavor_two}",
+                        "{flavor}"
+                    ]
+                },
+                {
+                    "name": "MAKE_COCKTAIL",
+                    "slots": [
+                        {
+                            "name": "cocktail",
+                            "type": "Cocktail",
+                            "samples": [
+                                "einen {cocktail} bitte",
+                                "ich hätte gerne einen {cocktail}",
+                                "ich möchte einen  {cocktail}",
+                                "der name ist {cocktail}",
+                                "{cocktail}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "ich hätte gern einen {cocktail}",
+                        "mix mir einen {cocktail}",
+                        "nach einen {cocktail}",
+                        "nach einem {cocktail}",
+                        "einen {cocktail} bitte",
+                        "{cocktail} ist das was ich haben möchte",
+                        "{cocktail}",
+                        "mach mir einen {cocktail}",
+                        "ich möchte einen {cocktail}",
+                        "ich hätte gerne einen {cocktail}",
+                        "ich möchte einen cocktail."
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Flavor",
+                    "values": [
+                        {
+                            "id": "sweetsour",
+                            "name": {
+                                "value": "süßsauer",
+                                "synonyms": [
+                                    "süßen und sauren",
+                                    "süßsauren",
+                                    "süßsaurem",
+                                    "süß und sauer",
+                                    "süßsauer"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "creamy",
+                            "name": {
+                                "value": "cremig",
+                                "synonyms": [
+                                    "samtem",
+                                    "samten",
+                                    "samtigen",
+                                    "cremigem",
+                                    "cremigen",
+                                    "cremig",
+                                    "samt"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "bitter",
+                            "name": {
+                                "value": "herb",
+                                "synonyms": [
+                                    "bitterem",
+                                    "bitteren",
+                                    "trockenem",
+                                    "tockenen",
+                                    "herbem",
+                                    "herben",
+                                    "herb",
+                                    "trocken",
+                                    "bitter"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "fruity",
+                            "name": {
+                                "value": "fruchtig",
+                                "synonyms": [
+                                    "fruchtigen",
+                                    "fruchtigem",
+                                    "obstig",
+                                    "fruchtig"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "interesting",
+                            "name": {
+                                "value": "interessant",
+                                "synonyms": [
+                                    "interessantem",
+                                    "interessanten",
+                                    "anders",
+                                    "besonders",
+                                    "interessant"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "fresh",
+                            "name": {
+                                "value": "frisch",
+                                "synonyms": [
+                                    "frischem",
+                                    "fischen",
+                                    "durstlöschend",
+                                    "erfrischend",
+                                    "frisch",
+                                    "spritzig"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "sour",
+                            "name": {
+                                "value": "sauer",
+                                "synonyms": [
+                                    "nicht süßen",
+                                    "nicht süßem",
+                                    "zitronigem",
+                                    "sauren",
+                                    "saurem",
+                                    "nicht süß",
+                                    "zitronig",
+                                    "sauer"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "sweet",
+                            "name": {
+                                "value": "süß",
+                                "synonyms": [
+                                    "nicht sauren",
+                                    "nicht saurem",
+                                    "zuckrigen",
+                                    "zuckrigem",
+                                    "süßen",
+                                    "süßem",
+                                    "nicht sauer",
+                                    "zuckrig",
+                                    "süß"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Cocktail",
+                    "values": [
+                        {
+                            "id": "58",
+                            "name": {
+                                "value": "Standard Breezes",
+                                "synonyms": [
+                                    "Standard Breezes"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "18",
+                            "name": {
+                                "value": "Second Deliberation",
+                                "synonyms": [
+                                    "Second Deliberation"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "20",
+                            "name": {
+                                "value": "Fourth Stuff",
+                                "synonyms": [
+                                    "Fourth Stuff"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "15",
+                            "name": {
+                                "value": "Lytic Floor",
+                                "synonyms": [
+                                    "Lytic Floor"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "23",
+                            "name": {
+                                "value": "Favourite Winters",
+                                "synonyms": [
+                                    "Favourite Winters"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "72",
+                            "name": {
+                                "value": "Third Hand",
+                                "synonyms": [
+                                    "Third Hand"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "12",
+                            "name": {
+                                "value": "Chilled Judgment",
+                                "synonyms": [
+                                    "Chilled Judgment"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "9",
+                            "name": {
+                                "value": "Atomic Rooms",
+                                "synonyms": [
+                                    "Atomic Rooms"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "8",
+                            "name": {
+                                "value": "Exotic Floor",
+                                "synonyms": [
+                                    "Exotic Floor"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "21",
+                            "name": {
+                                "value": "Rich Spot",
+                                "synonyms": [
+                                    "Rich Spot"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "14",
+                            "name": {
+                                "value": "Chilled Reception",
+                                "synonyms": [
+                                    "Chilled Reception"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "10",
+                            "name": {
+                                "value": "Mixed Jazz",
+                                "synonyms": [
+                                    "Mixed Jazz"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "24",
+                            "name": {
+                                "value": "Called Day",
+                                "synonyms": [
+                                    "Called Day"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "17",
+                            "name": {
+                                "value": "Perfect Tone",
+                                "synonyms": [
+                                    "Perfect Tone"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "57",
+                            "name": {
+                                "value": "Nice Reflection",
+                                "synonyms": [
+                                    "Nice Reflection"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "13",
+                            "name": {
+                                "value": "Canned House",
+                                "synonyms": [
+                                    "Canned House"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "26",
+                            "name": {
+                                "value": "Special Climates",
+                                "synonyms": [
+                                    "Special Climates"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "22",
+                            "name": {
+                                "value": "Nice Head",
+                                "synonyms": [
+                                    "Nice Head"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "11",
+                            "name": {
+                                "value": "Welcome Temperature",
+                                "synonyms": [
+                                    "Welcome Temperature"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "27",
+                            "name": {
+                                "value": "Called Stefan",
+                                "synonyms": [
+                                    "Called Stefan"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "78",
+                            "name": {
+                                "value": "Toxic Markus",
+                                "synonyms": [
+                                    "Toxic Markus"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "25",
+                            "name": {
+                                "value": "Perfect House",
+                                "synonyms": [
+                                    "Perfect House"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "82",
+                            "name": {
+                                "value": "Popular House",
+                                "synonyms": [
+                                    "Popular House"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "19",
+                            "name": {
+                                "value": "Best Tone",
+                                "synonyms": [
+                                    "Best Tone"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "79",
+                            "name": {
+                                "value": "Second Surface",
+                                "synonyms": [
+                                    "Second Surface"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "16",
+                            "name": {
+                                "value": "Cranberry Stream",
+                                "synonyms": [
+                                    "Cranberry Stream"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "63",
+                            "name": {
+                                "value": "Double Water",
+                                "synonyms": [
+                                    "Double Water"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "MAKE_COCKTAIL_FLAVOR",
+                    "delegationStrategy": "SKILL_RESPONSE",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "flavor",
+                            "type": "Flavor",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1348102881074.103846443755"
+                            }
+                        },
+                        {
+                            "name": "flavor_two",
+                            "type": "Flavor",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "MAKE_COCKTAIL",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "cocktail",
+                            "type": "Cocktail",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1165721783183.563658412322"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1348102881074.103846443755",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "soll der cocktail zum beispiel süß, sauer oder fruchtig sein?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Ich brauche eine Geschmacksrichtung wie zum Beispiel süß, sauer oder fruchtig. Was für eine geschmacksrichtung soll der cocktail haben?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1165721783183.563658412322",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Wie ist der name des cocktails?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Wie heißt der cocktail?"
+                    }
+                ]
+            }
+        ]
+    }
+}
